@@ -1,0 +1,111 @@
+<--*** DESKTOP VIEW ***-->
+<nav
+      className={
+        "flex justify-between items-center w-full top-0 py-4 z-30 text-lg"
+      }
+    >
+      <div className={"flex h-28 w-auto px-6"}>
+        <img alt="logo" src={Logo} />
+      </div>
+      <div className={"flex w-5/6 justify-end gap-10 px-6 sm:"}>
+        <a href="#introduction">Introduction</a>
+        <a href="#skills">Skills</a>
+        <a href="#eduex">Education & Experience</a>
+        <a href="#certification">Certifications</a>
+        <a href="#contactme">Contact Me</a>
+      </div>
+    </nav>
+
+
+
+
+<--*** MOBILE VIEW ***-->
+
+import { useState } from "react";
+import Logo from "../assets/logo.png";
+
+function NavBar() {
+  const [isToggled, setToggled] = useState<boolean>(false);
+  const handleClick = () => {
+    setToggled(!isToggled);
+    console.log(isToggled);
+    console.log(window.innerWidth);
+  };
+
+  return (
+    <nav>
+      {isToggled ? (
+        <div className="flex flex-row justify-between px-2 py-4">
+          <a href="#contactme">
+            <img src={Logo} alt="Logo" className={"w-28"}></img>
+          </a>
+          <div className="flex items-center">
+            <button onClick={handleClick}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="size-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      ) : (
+        <div>
+          <div className="flex flex-row justify-between px-2 py-4">
+            <a href="#contactme">
+              <img src={Logo} alt="Logo" className={"w-28"}></img>
+            </a>
+            <div className="flex items-center">
+              <button onClick={handleClick}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  className="size-8"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18 18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div className="px-2">
+            <ul>
+              <li>
+                <a href="#introduction">Introduction</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#eduex">Education & Experience</a>
+              </li>
+              <li>
+                <a href="#certification">Certifications</a>
+              </li>
+              <li>
+                <a href="#contactme">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      )}
+    </nav>
+  );
+}
+
+export default NavBar;
