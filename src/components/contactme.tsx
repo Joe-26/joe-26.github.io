@@ -15,17 +15,24 @@ function ContactMe() {
       <div className={"flex flex-col py-6"}>
         <div className={"flex py-2 gap-3"}>
           <img src={Linkedin} alt="mailLogo" width="30"></img>
-          <p>Follow on LinkedIn</p>
+          <a
+            href="https://www.linkedin.com/in/josephraj-velpula/"
+            target="_blank"
+          >
+            <p>Follow on LinkedIn</p>
+          </a>
         </div>
         <div className={"flex py-2 gap-3"}>
           <img src={Github} alt="mailLogo" width="30"></img>
-          <p>Follow on Github</p>
+          <a href="https://github.com/Joe-26?tab=repositories" target="_blank">
+            <p>Follow on Github</p>
+          </a>
         </div>
         <p className={"py-3"}></p>
         <hr className={"border-gray-400 w-1/5 py-3 content-center"} />
         <div className={"flex py-2 gap-3"}>
           <img src={Mail} alt="mailLogo" width="30"></img>
-          <p>V.josephraj26@gmail.com</p>
+          <a href="mailto:V.josephraj26@gmail.com" target="_blank"><p>V.josephraj26@gmail.com</p></a>
         </div>
       </div>
     </div>

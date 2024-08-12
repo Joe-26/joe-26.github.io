@@ -11,7 +11,7 @@ function NavBar() {
         <div className={"flex h-28 w-auto px-6"}>
           <img alt="logo" src={Logo} />
         </div>
-        <div className={"flex w-5/6 justify-end gap-10 px-6 sm:"}>
+        <div className={"flex w-5/6 justify-end gap-10 px-6 text-2xl"}>
           <a href="#introduction">Introduction</a>
           <a href="#skills">Skills</a>
           <a href="#eduex">Education & Experience</a>
