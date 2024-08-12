@@ -1,4 +1,3 @@
-import PCCOE from "../assets/pccoe.png";
 import SPPU from "../assets/sppu.png";
 import GSU from "../assets/RCB.png";
 import VW from "../assets/vwlogo.svg";
