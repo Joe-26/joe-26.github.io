@@ -1,4 +1,5 @@
 import PCCOE from "../assets/pccoe.png";
+import SPPU from "../assets/sppu.png";
 import GSU from "../assets/RCB.png";
 import VW from "../assets/vwlogo.svg";
 
@@ -25,7 +26,7 @@ function EduEx() {
             </p>
             <p>Masters in Information Systems, Digital Innovation</p>
             <p>Aug 2023 - Jul 2024</p>
-            <p>Grade: 3.93</p>
+            <p>Grade: 3.97</p>
           </div>
         </div>
         <br />
@@ -33,13 +34,13 @@ function EduEx() {
         <div className={"flex flex-row gap-4 justify-items-center"}>
           <div className={"basis-1/4"}>
             <div className={"grid justify-items-center"}>
-              <img src={PCCOE} alt="PCCOE Logo" />
+              <img src={SPPU} alt="PCCOE Logo" className={"w-24"} />
             </div>
           </div>
 
           <div className={"basis-3/4 "}>
             <p className={"text-2xl font-bold"}>
-              Pimpri Chinchwad College of Engineering
+              Savitribai Phule Pune University
             </p>
             <p>Bachelors in Electronics & Telecommunication Engineering</p>
             <p>Jun 2017 - Apr 2021</p>
@@ -73,7 +74,7 @@ function EduEx() {
         <div className={"flex flex-row gap-4 justify-items-center"}>
           <div className={"basis-1/4"}>
             <div className={"grid justify-items-center"}>
-              <img src={VW} alt="PCCOE Logo" className={"w-1/2"} />
+              <img src={VW} alt="VW Logo" className={"w-24"} />
             </div>
           </div>
 

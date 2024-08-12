@@ -24,9 +24,21 @@ function Introduction() {
           </p>
           <br />
           <div className={"flex gap-6"}>
-            <img alt="githubLogo" src={GitHub}></img>
-            <img alt="linkedInLogo" src={LinkedIn}></img>
-            <img alt="emailLogo" src={Email}></img>
+            <a
+              href="https://github.com/Joe-26?tab=repositories"
+              target="_blank"
+            >
+              <img alt="githubLogo" src={GitHub}></img>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/josephraj-velpula/"
+              target="_blank"
+            >
+              <img alt="linkedInLogo" src={LinkedIn}></img>
+            </a>
+            <a href="mailto:V.josephraj26@gmail.com" target="_blank">
+              <img alt="emailLogo" src={Email}></img>
+            </a>
           </div>
         </p>
       </div>
