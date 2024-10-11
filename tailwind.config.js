@@ -30,10 +30,10 @@ export default {
           "100%": {
             borderColor: "white"
           }  
-        }
+        },
       },
       animation: {
-        typing: "typing 2s steps(20) alternate, blink .7s infinite"
+        typing: "typing 2s steps(20) alternate, blink .7s infinite",
       }
     },
     screens: {

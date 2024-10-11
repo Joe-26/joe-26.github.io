@@ -6,9 +6,9 @@ function EduEx() {
   return (
     <div className={"flex flex-row py-16 px-16 gap-10 bg-yellow"}>
       <div className={"basis-1/2"}>
-        <div className={"flex justify-center py-6"}>
-          <p className={"text-7xl"} id="eduex">
-            EDUCATION
+        <div className={"flex justify-center py-16"}>
+          <p className={"text-7xl font-medium text-blue-navy"} id="eduex">
+            Education
           </p>
         </div>
 
@@ -49,8 +49,8 @@ function EduEx() {
       </div>
 
       <div className={"basis-1/2"}>
-        <div className={"flex justify-center py-6"}>
-          <p className={"text-7xl"}>EXPERIENCE</p>
+        <div className={"flex justify-center py-16"}>
+          <p className={"text-7xl font-medium text-blue-navy"}>Experience</p>
         </div>
 
         <div className={"flex flex-row gap-4 justify-items-center"}>

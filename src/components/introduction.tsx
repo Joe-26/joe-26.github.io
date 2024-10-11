@@ -5,7 +5,9 @@ import Photo from "../assets/myPhoto1.jpg";
 
 function Introduction() {
   return (
-    <div className={"flex py-24 px-16 gap-20 bg-yellow place-items-stretch"}>
+    <div
+      className={"flex py-24 px-16 gap-20 bg-yellow place-items-stretch mt-32"}
+    >
       <div className={"flex w-1/2"}>
         <p>
           <h1

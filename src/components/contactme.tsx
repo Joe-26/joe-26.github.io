@@ -5,7 +5,7 @@ import Linkedin from "../assets/linkedin.svg";
 function ContactMe() {
   return (
     <div className={"flex flex-col py-6 px-16 bg-yellow"}>
-      <p className={"flex text-5xl"} id="contactme">
+      <p className={"flex text-5xl text-blue-navy font-medium"} id="contactme">
         Let's Get in Touch
       </p>
       <p className={"flex"}>

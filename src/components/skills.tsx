@@ -16,18 +16,18 @@ import Selenium from "../assets/selenium.svg";
 
 function Skills() {
   return (
-    <div className={"flex flex-row py-16 px-16 bg-yellow"}>
+    <div className={"flex flex-row py-16 px-16 bg-yellow gap-20"}>
       <div className={"basis-1/2"}>
         <img alt="developer" src={Developer} className={"rounded-3xl"} />
       </div>
       <div className={"basis-1/2"}>
-        <div className={"flex justify-center"}>
-          <p className={"text-7xl"} id="skills">
-            SKILLS
+        <div className={"flex justify-center py-16"}>
+          <p className={"text-7xl text-blue-navy font-medium"} id="skills">
+            Skills
           </p>
         </div>
         <div className={"flex justify-center"}>
-          <div className="grid grid-cols-5 gap-10 py-12">
+          <div className="grid grid-cols-5 gap-10 px-4">
             <img alt="aws" src={AWS} width="100" height="100" />
             <img alt="terraform" src={Terraform} width="100" height="100" />
             <img alt="docker" src={Docker} width="100" height="100" />
