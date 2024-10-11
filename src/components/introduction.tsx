@@ -8,12 +8,14 @@ function Introduction() {
     <div className={"flex py-24 px-16 gap-20 bg-yellow place-items-stretch"}>
       <div className={"flex w-1/2"}>
         <p>
-          <p
-            className={"text-blue-navy text-8xl font-semibold"}
+          <h1
+            className={
+              "text-blue-navy text-8xl font-semibold animate-typing overflow-hidden whitespace-nowrap"
+            }
             id="introduction"
           >
-            Hi, I'm Joseph!
-          </p>
+            Hi, Joseph here!
+          </h1>
           <br /> <br />
           <p className={"font-normal text-2xl"}>
             Passionate about innovation and excellence, I am an AWS DevOps
@@ -28,19 +30,34 @@ function Introduction() {
               href="https://github.com/Joe-26?tab=repositories"
               target="_blank"
             >
-              <img alt="githubLogo" src={GitHub}></img>
+              <img
+                alt="githubLogo"
+                src={GitHub}
+                className="transition hover:-translate-y-1"
+              ></img>
             </a>
             <a
               href="https://www.linkedin.com/in/josephraj-velpula/"
               target="_blank"
             >
-              <img alt="linkedInLogo" src={LinkedIn}></img>
+              <img
+                alt="linkedInLogo"
+                src={LinkedIn}
+                className="transition hover:-translate-y-1"
+              ></img>
             </a>
             <a href="mailto:V.josephraj26@gmail.com" target="_blank">
-              <img alt="emailLogo" src={Email}></img>
+              <img
+                alt="emailLogo"
+                src={Email}
+                className="transition hover:-translate-y-1"
+              ></img>
             </a>
-            <button className="bg-black rounded-full px-7 text-yellow hover:bg-yellow hover:text-black hover:ring-2 hover:ring-black">
-              <a href="https://drive.google.com/file/d/15XEm2QGsdklWp0ES8MXd3DsNPPG8_y69/view?usp=drive_link" target="_blank">
+            <button className="transition duration-300 bg-black rounded-full px-7 text-yellow hover:bg-yellow hover:text-black hover:ring-2 hover:ring-black">
+              <a
+                href="https://drive.google.com/file/d/15XEm2QGsdklWp0ES8MXd3DsNPPG8_y69/view?usp=drive_link"
+                target="_blank"
+              >
                 Resume
               </a>
             </button>
