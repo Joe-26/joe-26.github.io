@@ -39,6 +39,11 @@ function Introduction() {
             <a href="mailto:V.josephraj26@gmail.com" target="_blank">
               <img alt="emailLogo" src={Email}></img>
             </a>
+            <button className="bg-black rounded-full px-7 text-yellow hover:bg-yellow hover:text-black hover:ring-2 hover:ring-black">
+              <a href="https://drive.google.com/file/d/15XEm2QGsdklWp0ES8MXd3DsNPPG8_y69/view?usp=drive_link" target="_blank">
+                Resume
+              </a>
+            </button>
           </div>
         </p>
       </div>

@@ -5,6 +5,7 @@ import Footer from "./components/footer";
 import Introduction from "./components/introduction";
 import NavBar from "./components/navbar";
 import Skills from "./components/skills";
+import Scroll from "./components/scroll";
 
 /** NavBar - Introduction(Header, About Me) - Skills - Professional Experience - Projects - Education - Certifications - Contact Me - Footer */
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div>
       <NavBar />
       <Introduction />
+      <Scroll />
       <Skills />
       <EduEx />
       <Certifications />
