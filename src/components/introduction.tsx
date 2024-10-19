@@ -12,10 +12,10 @@ function Introduction() {
         {/* Introduction Flex Box */}
         <div className="px-4 sm:py-20">
           <br /> <br />
-          <div className="text-6xl font-semibold animate-typing  whitespace-nowrap flex sm:text-7xl">
+          <div className="text-5xl font-semibold animate-typing  whitespace-nowrap flex sm:text-7xl">
             Hi,
           </div>
-          <div className="text-6xl font-semibold animate-typing  whitespace-nowrap flex sm:text-7xl">
+          <div className="text-5xl font-semibold animate-typing  whitespace-nowrap flex sm:text-7xl">
             Joseph here!&nbsp;
             <img src={Wave} className="h-14 animate-wigglemore z-0 sm:h-20" />
           </div>
