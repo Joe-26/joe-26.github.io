@@ -1,33 +1,34 @@
 import GitHub from "../assets/github.svg";
 import LinkedIn from "../assets/linkedin.svg";
-import Email from "../assets/email.png";
+import Email from "../assets/email.svg";
 import Photo from "../assets/myPhoto1.jpg";
+import Wave from "../assets/wave.png";
+import ScrollArrow from "../assets/scroll_arrow.svg";
 
 function Introduction() {
   return (
-    <div
-      className={"flex py-24 px-16 gap-20 bg-yellow place-items-stretch mt-32"}
-    >
-      <div className={"flex w-1/2"}>
-        <p>
-          <h1
-            className={
-              "text-blue-navy text-8xl font-semibold animate-typing overflow-hidden whitespace-nowrap"
-            }
-            id="introduction"
-          >
-            Hi, Joseph here!
-          </h1>
+    <div className="sm:h-screen sm:relative">
+      <div className="flex-col gap-2 mt-16 sm:mt-24 sm:flex sm:flex-row sm:items-center">
+        {/* Introduction Flex Box */}
+        <div className="px-4 sm:py-20">
           <br /> <br />
-          <p className={"font-normal text-2xl"}>
+          <div className="text-6xl font-semibold animate-typing  whitespace-nowrap flex sm:text-7xl">
+            Hi,
+          </div>
+          <div className="text-6xl font-semibold animate-typing  whitespace-nowrap flex sm:text-7xl">
+            Joseph here!&nbsp;
+            <img src={Wave} className="h-14 animate-wigglemore z-0 sm:h-20" />
+          </div>
+          <br />
+          <p className="font-normal sm:text-lg">
             Passionate about innovation and excellence, I am an AWS DevOps
             engineer with over 2 years of experience in cloud infrastructure
             solutions. I bring leadership, automation expertise, and a
             commitment to continuous learning. Certified as an AWS Solutions
             Architect, I am ready to drive cloud technology forward.
           </p>
-          <br />
-          <div className={"flex gap-6"}>
+          {/* Social Box */}
+          <div className="hidden sm:flex sm:gap-6 sm:items-center sm:py-4">
             <a
               href="https://github.com/Joe-26?tab=repositories"
               target="_blank"
@@ -35,7 +36,7 @@ function Introduction() {
               <img
                 alt="githubLogo"
                 src={GitHub}
-                className="transition hover:-translate-y-1"
+                className="h-9 transition hover:-translate-y-1 sm:h-14"
               ></img>
             </a>
             <a
@@ -45,17 +46,17 @@ function Introduction() {
               <img
                 alt="linkedInLogo"
                 src={LinkedIn}
-                className="transition hover:-translate-y-1"
+                className="h-9 transition hover:-translate-y-1 sm:h-14"
               ></img>
             </a>
             <a href="mailto:V.josephraj26@gmail.com" target="_blank">
               <img
                 alt="emailLogo"
                 src={Email}
-                className="transition hover:-translate-y-1"
+                className="h-9 transition hover:-translate-y-1 sm:h-16"
               ></img>
             </a>
-            <button className="transition duration-300 bg-black rounded-full px-7 text-yellow hover:bg-yellow hover:text-black hover:ring-2 hover:ring-black">
+            <button className="transition duration-300 bg-black rounded-full px-7 py-1 text-honeydew hover:ring-4 hover:ring-black sm:py-3">
               <a
                 href="https://drive.google.com/file/d/15XEm2QGsdklWp0ES8MXd3DsNPPG8_y69/view?usp=drive_link"
                 target="_blank"
@@ -64,16 +65,66 @@ function Introduction() {
               </a>
             </button>
           </div>
-        </p>
-      </div>
-      <div className={"flex w-1/2 justify-center"}>
-        <div className={"place-self-center"}>
-          <img
-            alt="developer"
-            src={Photo}
-            className={"max-w-xl rounded-full"}
-          />
         </div>
+
+        {/* Profile Photo Flex Box */}
+        <div className="flex flex-col p-4">
+          <div className="flex justify-center h-auto">
+            <img
+              alt="developer"
+              src={Photo}
+              className="w-auto rounded-full sm:w-auto sm:h-auto "
+            />
+          </div>
+
+          {/* Social Box */}
+          <div className="flex justify-center gap-4 items-center py-4 sm:hidden">
+            <a
+              href="https://github.com/Joe-26?tab=repositories"
+              target="_blank"
+            >
+              <img
+                alt="githubLogo"
+                src={GitHub}
+                className="h-14 transition hover:-translate-y-1"
+              ></img>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/josephraj-velpula/"
+              target="_blank"
+            >
+              <img
+                alt="linkedInLogo"
+                src={LinkedIn}
+                className="h-14 transition hover:-translate-y-1"
+              ></img>
+            </a>
+            <a href="mailto:V.josephraj26@gmail.com" target="_blank">
+              <img
+                alt="emailLogo"
+                src={Email}
+                className="h-14 transition hover:-translate-y-1"
+              ></img>
+            </a>
+            <button className="transition duration-300 bg-black rounded-full px-7 py-2 text-honeydew hover:bg-yellow hover:ring-2 hover:ring-black">
+              <a
+                href="https://drive.google.com/file/d/15XEm2QGsdklWp0ES8MXd3DsNPPG8_y69/view?usp=drive_link"
+                target="_blank"
+              >
+                Resume
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Scroll Section */}
+      <div className="sm:absolute bottom-10 w-full flex justify-center pb-12">
+        <img
+          className="animate-bounce w-12"
+          src={ScrollArrow}
+          alt="scroll_arrow"
+        />
       </div>
     </div>
   );

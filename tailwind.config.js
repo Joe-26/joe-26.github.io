@@ -2,16 +2,17 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        'yellow': '#fbe8a6',
-        'orange': '#f4976c',
-        'blue-navy': '#303c6c',
-        'blue-light1': '#b4dfe5',
-        'blue-light2': 'd2fdff',
+        'indianred': '#E05263',
+        'honeydew': '#F1FAEE',
+        'nonphotoblue': '#A8DADC',
+        'cerulean': '#457B9D',
+        'berkeleyblue': '#1D3557',
+        'buff': '#DFA06E',
       },
       keyframes: {
         typing: {
@@ -31,16 +32,22 @@ export default {
             borderColor: "white"
           }  
         },
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+        wigglemore: {
+          '0%, 100%': { transform: 'rotate(-30deg)' },
+          '50%': { transform: 'rotate(30deg)' },
+        }
       },
       animation: {
         typing: "typing 2s steps(20) alternate, blink .7s infinite",
+        spinslow: "spin 7s linear infinite",
+        wiggle: "wiggle 1s ease-in-out infinite",
+        wigglemore: "wigglemore 2s ease-in-out infinite",
       }
     },
-    screens: {
-      xs: "480px",
-      sm: "768px",
-      md: "1060px",
-    }
   },
   plugins: [],
 }

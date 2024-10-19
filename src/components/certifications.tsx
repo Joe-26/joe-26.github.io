@@ -5,21 +5,17 @@ import Terr from "../assets/terraformCert.jpeg";
 
 function Certifications() {
   return (
-    <div className={"flex flex-col py-16 px-16 bg-yellow"}>
-      <div className="flex justify-center py-6">
-        <p className={"text-7xl font-medium text-blue-navy"} id="certification">
+    <div className="py-12 sm:py-14">
+      <div className="flex justify-center pb-20">
+        <p className={"text-4xl font-bold"} id="certification">
           Certifications
         </p>
       </div>
-      <div className="grid grid-cols-4 place-items-center py-6 gap-4">
+      <div className="grid grid-cols-2 place-items-center py-6 gap-4 sm:grid-cols-4">
         <img src={AWSsa} alt="AWS-SA Cert" className={"w-64"} />
         <img src={Kuber} alt="Kubernetes Cert" className={"w-64"} />
         <img src={Terr} alt="Terraform Cert" className={"w-auto"} />
-        <img
-          src={AWScom}
-          alt="AWS Compute Cert"
-          className={"w-5/6"}
-        />
+        <img src={AWScom} alt="AWS Compute Cert" className={"w-5/6"} />
       </div>
     </div>
   );

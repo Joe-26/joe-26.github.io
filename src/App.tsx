@@ -1,23 +1,23 @@
-import Certifications from "./components/certifications";
-import ContactMe from "./components/contactme";
-import EduEx from "./components/eduex.tsx";
-import Footer from "./components/footer";
-import Introduction from "./components/introduction";
+import "./App.css";
 import NavBar from "./components/navbar";
+import Introduction from "./components/introduction";
+import Footer from "./components/footer";
+import ContactMe from "./components/contactme";
 import Skills from "./components/skills";
-import Scroll from "./components/scroll";
+import EduEx from "./components/eduex";
+import Certifications from "./components/certifications";
 
-/** NavBar - Introduction(Header, About Me) - Skills - Professional Experience - Projects - Education - Certifications - Contact Me - Footer */
 function App() {
   return (
     <div>
       <NavBar />
-      <Introduction />
-      <Scroll />
-      <Skills />
-      <EduEx />
-      <Certifications />
-      <ContactMe />
+      <div className="sm:px-64 bg-honeydew">
+        <Introduction />
+        <Skills />
+        <EduEx />
+        <Certifications />
+        <ContactMe />
+      </div>
       <Footer />
     </div>
   );
