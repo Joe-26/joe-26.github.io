@@ -56,7 +56,24 @@ function EduEx() {
         </div>
 
         <div className={"flex flex-row gap-4 justify-items-center px-4"}>
-          <div className={"basis-1/4"}>
+          <div className={"flex basis-1/4 justify-center items-center"}>
+            <div className={"grid justify-items-center bg-indigo-700 rounded-md px-4 py-2"}>
+              <img src='https://scgscorp.com/images/scgslogo.png' alt="SCGS Logo" className="w-24" />
+            </div>
+          </div>
+
+          <div className={"basis-3/4 "}>
+            <p className={"text-xl font-bold"}>Software Engineer</p>
+            <p>SCG Solutions</p>
+            <p>May 2024 - Present . Full-time . 5 mo</p>
+            <p>East Lansing, MI, United Sates</p>
+          </div>
+        </div>
+
+        <br /><br />
+
+        <div className={"flex flex-row gap-4 justify-items-center px-4"}>
+          <div className={"flex basis-1/4 justify-center"}>
             <div className={"grid justify-items-center"}>
               <img src={GSU} alt="GSU Logo" />
             </div>
@@ -72,10 +89,10 @@ function EduEx() {
           </div>
         </div>
 
-        <br />
+        <br /><br />
 
         <div className={"flex flex-row gap-4 justify-items-center px-4"}>
-          <div className={"basis-1/4"}>
+          <div className={"flex basis-1/4 items-center justify-center"}>
             <div className={"grid justify-items-center"}>
               <img src={VW} alt="VW Logo" className={"w-24"} />
             </div>
@@ -88,6 +105,7 @@ function EduEx() {
             <p>Pune, MH, India</p>
           </div>
         </div>
+        
       </div>
     </div>
   );
