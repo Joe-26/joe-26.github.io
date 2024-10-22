@@ -3,7 +3,7 @@ import GSU from "../assets/RCB.png";
 import VW from "../assets/vwlogo.svg";
 function EduEx() {
   return (
-    <div className="flex flex-col justify-center sm:py-12 sm:flex-row">
+    <div className="flex flex-col justify-center xl:py-12 xl:flex-row">
       {/* Education Section */}
       <div className="py-12">
         <div className="flex justify-center pb-20">
