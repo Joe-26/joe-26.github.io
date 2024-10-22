@@ -37,7 +37,7 @@ function Skills() {
             Skills
         </div>
         <div className="text-xl font-medium px-4 py-1">Languages:</div>
-      <div className="grid grid-cols-9 p-4">
+      <div className="grid grid-cols-9 p-4 gap-2">
         <img alt="python" src={Python} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition animate-wiggle" title="Python"/>
         <img alt="java" src={Java} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition" title="Java"/>
         <img alt="c" src={C} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition" title="C"/>
@@ -47,7 +47,7 @@ function Skills() {
         <img alt="shell" src={PowerShell} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition" title="PowerShell"/>
         </div>
         <div className="text-xl font-medium px-4 py-1">Technologies:</div>
-        <div className="grid grid-cols-9 p-4">
+        <div className="grid grid-cols-9 p-4 gap-2">
         <img alt="aws" src={AWS} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition animate-wiggle" title="AWS"/>
         <img alt="selenium" src={Selenium} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition" title="Selenium"/>
         <img alt="tableau" src={Tableau} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition" title="Tableau"/>
@@ -57,7 +57,7 @@ function Skills() {
         <img alt="sap" src={Windows} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition" title="Windows"/>
         </div>
         <div className="text-xl font-medium px-4 py-1">WebDev Tools:</div>
-        <div className="grid grid-cols-9 p-4">
+        <div className="grid grid-cols-9 p-4 gap-2">
         <img alt="sap" src={HTML} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition" title="HTML"/>
         <img alt="sap" src={Css3} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition" title="CSS"/>
         <img alt="sap" src={TailwindCss} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition animate-wiggle" title="TailwindCSS"/>
@@ -68,7 +68,7 @@ function Skills() {
         <img alt="react" src={React} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition animate-spinslow"  title="React"/>
         </div>
         <div className="text-xl font-medium px-4 py-1">DevOps:</div>
-        <div className="grid grid-cols-9 p-4">
+        <div className="grid grid-cols-9 p-4 gap-2">
         <img alt="scrum" src={Scrum} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition animate-wiggle" title="Scrum"/>
         <img alt="agile" src={Agile} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition" title="Agile"/>
         <img alt="git" src={Git} width="40" height="40" className="sm:w-16 hover:-translate-y-2 transition" title="Git"/>

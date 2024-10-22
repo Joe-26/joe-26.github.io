@@ -8,24 +8,21 @@ import ScrollArrow from "../assets/scroll_arrow.svg";
 function Introduction() {
   return (
     <div className="sm:h-screen sm:relative">
-      <div className="flex-col gap-2 mt-16 sm:mt-24 sm:flex sm:flex-row sm:items-center">
+      <div className="flex-col gap-2 mt-16 xl:mt-24 xl:flex xl:flex-row xl:items-center">
         {/* Introduction Flex Box */}
         <div className="px-4 sm:py-20">
           <br /> <br />
           <div className="text-5xl font-semibold animate-typing  whitespace-nowrap flex sm:text-7xl">
-            Hi,
+            Hi&nbsp;<img src={Wave} className="h-14 animate-wigglemore z-0 sm:h-20" />
           </div>
           <div className="text-5xl font-semibold animate-typing  whitespace-nowrap flex sm:text-7xl">
-            Joseph here!&nbsp;
-            <img src={Wave} className="h-14 animate-wigglemore z-0 sm:h-20" />
+            Joseph here!
           </div>
           <br />
           <p className="font-normal sm:text-lg">
-            Passionate about innovation and excellence, I am an AWS DevOps
-            engineer with over 2 years of experience in cloud infrastructure
-            solutions. I bring leadership, automation expertise, and a
-            commitment to continuous learning. Certified as an AWS Solutions
-            Architect, I am ready to drive cloud technology forward.
+          A Cloud DevOps Engineer with a passion for building scalable, efficient cloud infrastructure. 
+          With over two years of experience in AWS, Python, and DevOps tools like Terraform and Docker, I specialize in automating workflows and optimizing cloud environments for top performance.
+          <br /><br />Explore my portfolio to see how I streamline deployment processes, improve system reliability, and drive innovation in the cloud.
           </p>
           {/* Social Box */}
           <div className="hidden sm:flex sm:gap-6 sm:items-center sm:py-4">
