@@ -6,6 +6,7 @@ import ContactMe from "./components/contactme";
 import Skills from "./components/skills";
 import EduEx from "./components/eduex";
 import Certifications from "./components/certifications";
+import Volunteering from "./components/volunteering";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Introduction />
         <Skills />
         <EduEx />
+        <Volunteering />
         <Certifications />
         <ContactMe />
       </div>

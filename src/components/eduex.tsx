@@ -65,7 +65,7 @@ function EduEx() {
           <div className={"basis-3/4 "}>
             <p className={"text-xl font-bold"}>Software Engineer</p>
             <p>SCG Solutions</p>
-            <p>May 2024 - Present . Full-time . 5 mo</p>
+            <p>May 2024 - Present . Full-time</p>
             <p>East Lansing, MI, United Sates</p>
           </div>
         </div>
