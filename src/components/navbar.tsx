@@ -37,7 +37,7 @@ function NavBar() {
       <div
         className={`absolute ${menuClass} bg-white w-full p-4 transition-all ease-in-out duration-700 z-40 xl:top-0 xl:h-24 xl:flex xl:items-center xl:w-auto xl:right-0 xl:px-6`}
       >
-        <div className="flex flex-col xl:flex-row xl:gap-6">
+        <div className="flex flex-col text-right xl:flex-row xl:gap-6">
           <a className="text-xl no-underline cursor-pointer hover:underline underline-offset-8 py-1">
             Introduction
           </a>
