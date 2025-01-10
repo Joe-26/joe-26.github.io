@@ -5,7 +5,7 @@ import Phone from "../assets/call.svg";
 
 function ContactMe() {
   return (
-    <div className="flex flex-col py-12 sm:py-14">
+    <div className="flex flex-col py-12 px-4 sm:py-14">
       <p className="flex text-3xl font-bold pb-2" id="contactme">
         Let's Get in Touch&nbsp; <img src={Phone} className="w-6"></img>
       </p>

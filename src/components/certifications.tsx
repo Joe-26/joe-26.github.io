@@ -6,7 +6,7 @@ import AWSser from "../assets/aws-server.png";
 
 function Certifications() {
   return (
-    <div className="py-12 sm:py-14">
+    <div className="py-12 px-4 sm:py-14">
       <div className="flex justify-center pb-20">
         <p className={"text-4xl font-bold"} id="certification">
           Certifications
