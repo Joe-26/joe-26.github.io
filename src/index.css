@@ -1,20 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-html,
-body,
-#root,
-.app {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-    @apply text-berkeleyblue
-}
-
-@layer base {
-    html {
-        scroll-behavior: smooth;
-    }
+@theme {
+    --font-comforter: "Comforter", cursive;
+    --font-slash: "Splash", cursive;
+    --font-rock: "Rock Salt", cursive;
+    --font-glitch: "Rubik Glitch", system-ui;
 }
