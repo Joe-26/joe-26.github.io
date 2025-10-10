@@ -2,7 +2,7 @@ import React from "react";
 
 function navbar(props) {
   return (
-    <div className="fixed top-5 left-1/2 -translate-x-1/2 w-[90%] sm:w-[50%] z-10">
+    <div className="fixed top-5 left-1/2 -translate-x-1/2 w-[90%] sm:w-[75%] z-10">
       <div className="flex justify-between border-[0.2px] border-gray-500 rounded-full px-6 py-2 sm:px-12 bg-white/10 backdrop-blur text-white">
         {/* Left Section */}
         <div>
