@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Herosection from "./components/herosection";
 import Footer from "./components/footer";
 import SocialSide from "./components/socials-side";
+import ScrollToTop from "./components/scrollToTop";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="invisible sm:visible">
         <SocialSide/>
       </div>
+      <ScrollToTop />
       <Footer logo={portfolioInfo.logo}></Footer>
 
     </div>

@@ -5,7 +5,7 @@ import linkedIn from '../assets/linkedin.svg'
 function socialside() {
   return (
     <div className='flex bg-black'>
-        <div className='flex flex-col place-items-center gap-10 px-4 fixed left-0 bottom-0'>
+        <div className='flex flex-col place-items-center gap-10 px-4 fixed left-0 bottom-0 z-30'>
             <img className='h-8 scale-100 hover:scale-125' src={gitHubLogo}></img>
             <img className='h-8 scale-100 hover:scale-125' src={linkedIn}></img>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8 scale-100 hover:scale-125">
