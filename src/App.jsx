@@ -6,7 +6,7 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="bg-indigo-950 text-white">
+    <div className="text-white">
       <Navbar logo={portfolioInfo.logo}></Navbar>
       <Herosection name={portfolioInfo.name}></Herosection>
       <Footer logo={portfolioInfo.logo}></Footer>
