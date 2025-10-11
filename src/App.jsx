@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import SocialSide from "./components/socials-side";
 import ScrollToTop from "./components/scrollToTop";
 import KeySkills from "./components/skills/keySkills";
+import KeyProjects from "./components/projects/keyProjects";
 
 function App() {
   return (
@@ -13,12 +14,12 @@ function App() {
       <Navbar logo={portfolioInfo.logo}></Navbar>
       <Herosection name={portfolioInfo.name}></Herosection>
       <KeySkills></KeySkills>
+      <KeyProjects></KeyProjects>
       <div className="invisible sm:visible">
-        <SocialSide/>
+        <SocialSide />
       </div>
       <ScrollToTop />
       <Footer logo={portfolioInfo.logo}></Footer>
-
     </div>
   );
 }
