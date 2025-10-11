@@ -3,8 +3,8 @@ import ProjectCard from './projectCard'
 
 function keyProjects() {
   return (
-    <div className="py-16 bg-gray-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="py-16 bg-gray-900 px-4 sm:px-44">
+      <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-white mb-4">

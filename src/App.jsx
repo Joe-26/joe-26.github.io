@@ -7,6 +7,7 @@ import SocialSide from "./components/socials-side";
 import ScrollToTop from "./components/scrollToTop";
 import KeySkills from "./components/skills/keySkills";
 import KeyProjects from "./components/projects/keyProjects";
+import Testimonials from "./components/testimonials/testimonials";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Herosection name={portfolioInfo.name}></Herosection>
       <KeySkills></KeySkills>
       <KeyProjects></KeyProjects>
+      <Testimonials></Testimonials>
+
       <div className="invisible sm:visible">
         <SocialSide />
       </div>
