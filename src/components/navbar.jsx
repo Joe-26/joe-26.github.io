@@ -13,6 +13,10 @@ function navbar(props) {
         {/* Right Section */}
         <div className="flex items-center gap-4 text-sm sm:text-lg">
           <a href="#" class="group transition-all duration-300">
+            About Me
+            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
+          </a>
+          <a href="#" class="group transition-all duration-300">
             Contact
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
           </a>

@@ -5,13 +5,14 @@ import Herosection from "./components/herosection";
 import Footer from "./components/footer";
 import SocialSide from "./components/socials-side";
 import ScrollToTop from "./components/scrollToTop";
+import KeySkills from "./components/skills/keySkills";
 
 function App() {
   return (
     <div className="text-white">
       <Navbar logo={portfolioInfo.logo}></Navbar>
       <Herosection name={portfolioInfo.name}></Herosection>
-      <Herosection name={portfolioInfo.name}></Herosection>
+      <KeySkills></KeySkills>
       <div className="invisible sm:visible">
         <SocialSide/>
       </div>
