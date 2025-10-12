@@ -10,7 +10,7 @@ import terraformCert from "../assets/terraformCert.jpeg";
 
 function aboutme() {
   return (
-    <div className="bg-radial-[at_100%_0%] from-indigo-500 to-black to-60% px-4 pt-30 sm:px-44">
+    <div className="bg-radial-[at_100%_0%] from-indigo-500 to-black to-60% px-4 pt-30 sm:px-52">
       {/* Introduction */}
       <div className="flex flex-col gap-5 sm:flex-row">
         <div className="flex text-2xl font-mono text-center px-2 sm:basis-1/2 sm:text-5xl sm:items-center">
@@ -29,17 +29,17 @@ function aboutme() {
         <div className="flex font-mono sm:basis-1/4">
           <h2 className="uppercase font-extrabold">Experience</h2>
         </div>
-        <div className="sm:flex sm:flex-col sm:basis-3/4 sm:gap-4">
-          <div className="flex justify-between items-center border-b-1">
-            <div className="basis-1/2">Audemy</div>
+        <div className="flex flex-col gap-4 sm:flex sm:flex-col sm:basis-3/4 sm:gap-4">
+          <div className="flex justify-between items-center border-b-1 border-gray-500">
+            <div className="basis-1/2"><strong>Full Stack Developer</strong><br/>Audemy, Houston, TX</div>
             <div>Sep 2024 - Present</div>
           </div>
-          <div className="flex justify-between items-center border-b-1">
-            <div>SCG Solutions</div>
-            <div>Aug 2023 - Sep 2024</div>
+          <div className="flex justify-between items-center border-b-1 border-gray-500">
+            <div><strong>Full Stack Developer</strong><br/>SCG Solutions, East Lansing, MI</div>
+            <div>Nov 2023 - Sep 2024</div>
           </div>
-          <div className="flex justify-between items-center">
-            <div className="basis-1/2">Volkswagen</div>
+          <div className="flex justify-between items-center border-b-1 border-gray-500">
+            <div className="basis-1/2"><strong>Cloud DevOps Engineer</strong><br/>Volkswagen, India</div>
             <div>Jun 2020 - Aug 2023</div>
           </div>
         </div>
@@ -57,26 +57,43 @@ function aboutme() {
       </div>
       <div className="flex flex-col mt-4 font-extralight sm:flex-row sm:gap-5">
         <div className="flex font-mono sm:basis-1/4">
-          <h2 className="font-extralight">AI/ML</h2>
+          <h2 className="font-extralight">AI/ML Tools</h2>
         </div>
         <div className="sm:flex sm:flex-col sm:basis-3/4">
-          <div className="basis-1/2">Python, Java, JavaScript/TypeScript</div>
+          <div className="basis-1/2">LLMs, LangChain, Bedrock, SageMaker, PyTorch, Hugging Face, Scikit-learn, VADER NLP, RAG</div>
         </div>
       </div>
       <div className="flex flex-col mt-4 font-extralight sm:flex-row sm:gap-5">
         <div className="flex font-mono sm:basis-1/4">
-          <h2 className="font-extralight">Languages</h2>
+          <h2 className="font-extralight">Frameworks/Libraries</h2>
         </div>
         <div className="sm:flex sm:flex-col sm:basis-3/4">
-          <div className="basis-1/2">Python, Java, JavaScript/TypeScript</div>
+          <div className="basis-1/2">React, Vue.js, FastAPI, Django, Spring Boot, REST APIs, WCAG 2.1, ADA, Tailwind</div>
         </div>
       </div>
       <div className="flex flex-col mt-4 font-extralight sm:flex-row sm:gap-5">
         <div className="flex font-mono sm:basis-1/4">
-          <h2 className="font-extralight">Languages</h2>
+          <h2 className="font-extralight">Cloud Platforms</h2>
         </div>
         <div className="sm:flex sm:flex-col sm:basis-3/4">
-          <div className="basis-1/2">Python, Java, JavaScript/TypeScript</div>
+          <div className="basis-1/2">AWS (EC2, Lambda, VPC, S3, ECS, EKS, ECR, CloudWatch, IAM, SQS, SNS), Boto3, Azure</div>
+        </div>
+      </div>
+      <div className="flex flex-col mt-4 font-extralight sm:flex-row sm:gap-5">
+        <div className="flex font-mono sm:basis-1/4">
+          <h2 className="font-extralight">Databases</h2>
+        </div>
+        <div className="sm:flex sm:flex-col sm:basis-3/4">
+          <div className="basis-1/2">DynamoDB, AWS RDS, Redis, MongoDB, PostgreSQL, MySQL, Oracle, SQL Server, Pinecone</div>
+        </div>
+      </div>
+      <div className="flex flex-col mt-4 font-extralight sm:flex-row sm:gap-5">
+        <div className="flex font-mono sm:basis-1/4">
+          <h2 className="font-extralight">DevOps & Tools</h2>
+        </div>
+        <div className="sm:flex sm:flex-col sm:basis-3/4">
+          <div className="basis-1/2">Terraform, CloudFormation, Docker, Kubernetes, Git/GitHub, Bitbucket, GitHub Actions, Jenkins,
+AWS CodePipeline, CodeBuild, Selenium, Postman, Jira, Confluence, Azure DevOps</div>
         </div>
       </div>
 
