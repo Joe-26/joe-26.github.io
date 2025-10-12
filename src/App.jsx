@@ -9,6 +9,8 @@ import ScrollToTop from "./components/scrollToTop";
 import KeySkills from "./components/skills/keySkills";
 import KeyProjects from "./components/projects/keyProjects";
 import Testimonials from "./components/testimonials/testimonials";
+import AboutMe from "./components/aboutme";
+import ContactMe from "./components/contactme";
 
 // Home Page Component
 function HomePage() {
@@ -25,12 +27,15 @@ function HomePage() {
 // Placeholder About Me Component
 function AboutMePage() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-        <p className="text-gray-400 text-lg">This page is coming soon...</p>
-      </div>
-    </div>
+    // <div className="min-h-screen flex items-center justify-center bg-gray-900">
+    //   <div className="text-center">
+    //     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
+    //     <p className="text-gray-400 text-lg">This page is coming soon...</p>
+    //   </div>
+    // </div>
+    <>
+      <AboutMe></AboutMe>
+    </>
   );
 }
 
