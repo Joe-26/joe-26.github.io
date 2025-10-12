@@ -13,7 +13,7 @@ function contactme() {
         {/* Email */}
         <div className="flex justify-center">
           <a 
-            href="#"
+            href="mailto:V.josephraj26@gmail.com"
             className="flex justify-center border rounded-full items-center px-6 py-2 mt-5 gap-1 bg-white  transition-transform duration-300 scale-100 hover:scale-110"
           >
             <p className='text-black text-lg'>V.josephraj26@gmail.com</p>
@@ -35,8 +35,8 @@ function contactme() {
 
         {/* Socials */}
         <div className="flex justify-center gap-4 mt-5">
-          <a href="#"><img className="w-14 h-14 scale-100 hover:scale-125 transition duration-300" src={linkedIn}></img></a>
-          <a href="#"><img className="w-14 h-14 scale-100 hover:scale-125 transition duration-300" src={gitHubLogo}></img></a>
+          <a href="https://www.linkedin.com/in/josephraj-velpula/" target='_blank'><img className="w-14 h-14 scale-100 hover:scale-125 transition duration-300" src={linkedIn}></img></a>
+          <a href="https://github.com/Joe-26" target='_blank'><img className="w-14 h-14 scale-100 hover:scale-125 transition duration-300" src={gitHubLogo}></img></a>
         </div>
       </div>
     </div>
