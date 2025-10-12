@@ -1,31 +1,35 @@
 import React from "react";
+import commentSummarizer from '../../assets/commentSummarizer.png'
+import askDex from '../../assets/askDex.png'
+import meealMate from '../../assets/mealMate.png'
+
 
 function projectCard() {
   const projects = [
     {
       id: 1,
-      title: "Cloud Infrastructure Automation",
+      title: "Audience Feedback Analytics for YouTube Content Creators ",
       description:
-        "Automated AWS infrastructure deployment using Terraform and CI/CD pipelines.",
+        "Transform 100+ scattered comments into a 30-second readable report highlighting what truly matters to your audience.",
       image:
-        "https://via.placeholder.com/400x250/1f2937/ffffff?text=Cloud+Project",
-      githubUrl: "https://github.com/yourusername/cloud-automation",
+        commentSummarizer,
+      githubUrl: "https://github.com/Joe-26/CommentSummarizer",
     },
     {
       id: 2,
-      title: "Full Stack Web Application",
+      title: "Enterprise Gen-AI RAG Chatbot",
       description:
-        "React-based web app with Node.js backend and MongoDB database integration.",
-      image: "https://via.placeholder.com/400x250/374151/ffffff?text=Web+App",
-      githubUrl: "https://github.com/yourusername/fullstack-app",
+        "A RAG chatbot that uses the documents uploaded by the User and answers questions related to it.",
+      image: askDex,
+      githubUrl: "https://github.com/Joe-26/askDex-chatBot",
     },
     {
       id: 3,
-      title: "DevOps Monitoring Dashboard",
+      title: "AI-Powered Recipe Recommendation App",
       description:
-        "Real-time monitoring dashboard built with Python and Docker containerization.",
-      image: "https://via.placeholder.com/400x250/4b5563/ffffff?text=Dashboard",
-      githubUrl: "https://github.com/yourusername/monitoring-dashboard",
+        "Django application that uses AI and suggests recipes based on food ingredients, calorie limit and cuisine.",
+      image: meealMate,
+      githubUrl: "https://github.com/Joe-26/mealMate",
     },
   ];
 

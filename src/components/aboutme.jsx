@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
+import Skills from "./skills/skills";
+
 import photoCollage from "../assets/myPhoto1.jpg";
 import instaPat from "../assets/instaPat.jpeg";
 import awsSA from "../assets/aws-sa-a.png";
@@ -27,7 +29,7 @@ function aboutme() {
       </div>
 
       {/* Experience */}
-      <div className="flex flex-col mt-10 gap-5 font-extralight sm:flex-row">
+      <div className="flex flex-col mt-10 sm:mt-20 gap-5 font-extralight sm:flex-row">
         <div className="flex font-mono sm:basis-1/4">
           <h2 className="uppercase font-extrabold">Experience</h2>
         </div>
@@ -47,69 +49,16 @@ function aboutme() {
         </div>
       </div>
 
-      {/* Skills */}
-      <div className="mt-10 font-mono uppercase font-extrabold mb-5">Skills</div>
-      <div className="flex flex-col font-extralight sm:flex-row sm:gap-5">
-        <div className="flex font-mono sm:basis-1/4">
-          <h2 className="font-extralight">Languages</h2>
-        </div>
-        <div className="sm:flex sm:flex-col sm:basis-3/4">
-          <div className="basis-1/2">Python, Java, JavaScript/TypeScript</div>
-        </div>
-      </div>
-      <div className="flex flex-col mt-4 font-extralight sm:flex-row sm:gap-5">
-        <div className="flex font-mono sm:basis-1/4">
-          <h2 className="font-extralight">AI/ML Tools</h2>
-        </div>
-        <div className="sm:flex sm:flex-col sm:basis-3/4">
-          <div className="basis-1/2">LLMs, LangChain, Bedrock, SageMaker, PyTorch, Hugging Face, Scikit-learn, VADER NLP, RAG</div>
-        </div>
-      </div>
-      <div className="flex flex-col mt-4 font-extralight sm:flex-row sm:gap-5">
-        <div className="flex font-mono sm:basis-1/4">
-          <h2 className="font-extralight">Frameworks/Libraries</h2>
-        </div>
-        <div className="sm:flex sm:flex-col sm:basis-3/4">
-          <div className="basis-1/2">React, Vue.js, FastAPI, Django, Spring Boot, REST APIs, WCAG 2.1, ADA, Tailwind</div>
-        </div>
-      </div>
-      <div className="flex flex-col mt-4 font-extralight sm:flex-row sm:gap-5">
-        <div className="flex font-mono sm:basis-1/4">
-          <h2 className="font-extralight">Cloud Platforms</h2>
-        </div>
-        <div className="sm:flex sm:flex-col sm:basis-3/4">
-          <div className="basis-1/2">AWS (EC2, Lambda, VPC, S3, ECS, EKS, ECR, CloudWatch, IAM, SQS, SNS), Boto3, Azure</div>
-        </div>
-      </div>
-      <div className="flex flex-col mt-4 font-extralight sm:flex-row sm:gap-5">
-        <div className="flex font-mono sm:basis-1/4">
-          <h2 className="font-extralight">Databases</h2>
-        </div>
-        <div className="sm:flex sm:flex-col sm:basis-3/4">
-          <div className="basis-1/2">DynamoDB, AWS RDS, Redis, MongoDB, PostgreSQL, MySQL, Oracle, SQL Server, Pinecone</div>
-        </div>
-      </div>
-      <div className="flex flex-col mt-4 font-extralight sm:flex-row sm:gap-5">
-        <div className="flex font-mono sm:basis-1/4">
-          <h2 className="font-extralight">DevOps & Tools</h2>
-        </div>
-        <div className="sm:flex sm:flex-col sm:basis-3/4">
-          <div className="basis-1/2">
-            Terraform, CloudFormation, Docker, Kubernetes, Git/GitHub, 
-            Bitbucket, GitHub Actions, Jenkins,AWS CodePipeline, CodeBuild, 
-            Selenium, Postman, Jira, Confluence, Azure DevOps
-            </div>
-        </div>
-      </div>
+      <Skills></Skills>
 
       {/* Education */}
       <div className="flex flex-col mt-10 gap-5 font-extralight sm:flex-row">
-        <div className="flex font-mono  sm:basis-1/4 sm:items-center">
+        <div className="flex font-mono  sm:basis-1/4">
           <h2 className="uppercase font-extrabold">Education</h2>
         </div>
         <div className="sm:basis-3/4">
           <div className="flex justify-between items-center  sm:basis-1/2">
-            <div className="basis-1/2">Georgia State University</div>
+            <div className="basis-1/2">Master of Science in Information Systems<br/><em>Georgia State University, Atlanta, GA</em></div>
             <div>Aug 2023 - Aug 2024</div>
           </div>
         </div>
@@ -117,7 +66,7 @@ function aboutme() {
 
       {/* Achievements */}
       <div className="flex flex-col mt-10 gap-5 font-extralight sm:flex-row">
-        <div className="flex font-mono  sm:basis-1/4 ">
+        <div className="flex font-mono sm:basis-1/4 ">
           <h2 className="uppercase font-extrabold">Achievements</h2>
         </div>
         <div className="flex justify-center sm:justify-start sm:basis-3/4">
@@ -127,7 +76,7 @@ function aboutme() {
 
       {/* Certifications */}
       <div className="flex flex-col mt-10 gap-5 font-extralight sm:flex-row">
-        <div className="flex font-mono  sm:basis-1/4 ">
+        <div className="flex font-mono sm:basis-1/4 ">
           <h2 className="uppercase font-extrabold">Certifications</h2>
         </div>
         <div className="sm:basis-3/4 overflow-hidden">

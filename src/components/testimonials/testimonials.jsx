@@ -68,7 +68,8 @@ function testimonials() {
 
         <div className="text-end mt-4">
           <a 
-            href="#linkedinRecommendations" 
+            href="https://arc.net/l/quote/otxrbpbh"
+            target='_blank' 
             className="inline-flex items-center gap-2 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200"
           >
             View on LinkedIn &rarr;

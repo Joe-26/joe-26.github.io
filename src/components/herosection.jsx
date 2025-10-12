@@ -21,17 +21,20 @@ function herosection(props) {
           </div>
           <div className="pt-2 sm:text-lg">
             <p>
-              A Cloud DevOps Engineer with a passion for building scalable,
-              efficient cloud infrastructure. With over two years of experience
-              in AWS, Python, and DevOps tools like Terraform and Docker, I
-              specialize in automating workflows and optimizing cloud
-              environments for top performance.
+              AWS Certified Solutions Architect with 5 years of experience 
+              in designing, developing, and deploying scalable, secureenterprise 
+              applications across cloud and full-stack environments.
+              <br/><br/>
+              Passionate 
+              about leveraging Full Stack, DevOps, and cloud technologies to deliver 
+              resilient, high-performance solutions that optimize processes and 
+              enhance user experiences.
             </p>
           </div>
           <div className="flex flex-col gap-4 justify-center text-black pt-4 sm:flex-row sm:justify-start sm:text-lg">
             <div className="flex justify-center">
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1xEfVIxGMe0OG-bEJ_Y_AtVKOD2lyMmbn/view?usp=sharing"
                 className="flex items-center border rounded-full px-6 py-1 bg-white transition-transform duration-200 scale-100 hover:scale-110"
               >
                 Resume
@@ -39,7 +42,7 @@ function herosection(props) {
             </div>
             <div className="flex justify-center">
               <a
-                href="#"
+                href="mailto:V.josephraj26@gmail.com"
                 className="flex border rounded-full items-center px-6 py-1 gap-1 bg-white transition-transform duration-200 scale-100 hover:scale-110"
               >
                 V.josephraj26@gmail.com
