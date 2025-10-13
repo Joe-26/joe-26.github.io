@@ -17,7 +17,7 @@ function herosection(props) {
           <div>Hi, I'm</div>
           <div className="font-bold text-5xl uppercase font-FjallaOne sm:text-7xl">{props.name}</div>
           <div className="font-medium font-mono text-2xl sm:text-3xl">
-            &lt; Full Stack Developer /&gt;
+            &lt; Full Stack AI Engineer /&gt;
           </div>
           <div className="pt-2 sm:text-lg">
             <p>
@@ -26,7 +26,7 @@ function herosection(props) {
               applications across cloud and full-stack environments.
               <br/><br/>
               Passionate 
-              about leveraging Full Stack, DevOps, and cloud technologies to deliver 
+              about leveraging Generative AI, DevOps, and cloud technologies to deliver 
               resilient, high-performance solutions that optimize processes and 
               enhance user experiences.
             </p>

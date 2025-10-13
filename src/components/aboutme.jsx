@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "motion/react";
 import Skills from "./skills/skills";
 
-import photoCollage from "../assets/myPhoto1.jpg";
+import photoCollage from "../assets/myPhoto4.jpg";
 import instaPat from "../assets/instaPat.jpeg";
 import awsSA from "../assets/aws-sa-a.png";
 import awsCom from "../assets/aws-com.png";
@@ -86,7 +86,7 @@ function aboutme() {
             transition={{
               repeat: Infinity,
               ease: "linear",
-              duration: 15,
+              duration: 20,
               repeatType: "loop",
             }}
           >
