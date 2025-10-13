@@ -23,7 +23,7 @@ function testimonials() {
   ];
 
   return (
-    <div className="py-16 bg-radial-[at_100%_0%] from-rebecca-purple to-black to-60% px-4 sm:px-44">
+    <div className="bg-radial-[at_100%_0%] from-rebecca-purple to-black to-60% px-4 sm:px-44">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div className="text-center mb-12">
