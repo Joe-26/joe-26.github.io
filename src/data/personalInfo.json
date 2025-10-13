@@ -18,7 +18,7 @@
       "title": "Project Two",
       "description": "Description of the second project.",
       "technologies": ["JavaScript", "HTML5"],
-      "link": "https://example.com/project-two"
+      "link": "https://example.com"
     }
   ]
 }
