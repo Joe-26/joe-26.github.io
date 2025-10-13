@@ -18,7 +18,9 @@ function aboutme() {
       {/* Introduction */}
       <div className="flex flex-col gap-5 sm:flex-row">
         <div className="flex flex-col my-auto text-center px-2 sm:basis-1/2  sm:items-center">
-          <span className="text-3xl font-FjallaOne sm:text-6xl">Full Stack Developer, with a background in Gen AI & Cloud.</span>
+          <span className="text-3xl font-FjallaOne sm:text-6xl">
+            Full Stack Developer, with a background in Gen AI & Cloud.
+          </span>
           <br />
           <span className="font-mono sm:text-3xl">📍 United States</span>
         </div>
@@ -30,19 +32,33 @@ function aboutme() {
       {/* Experience */}
       <div className="flex flex-col mt-10 sm:mt-20 gap-5 font-extralight sm:flex-row">
         <div className="flex font-mono sm:basis-1/4">
-          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">Experience</h2>
+          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">
+            Experience
+          </h2>
         </div>
         <div className="flex flex-col gap-4 sm:basis-3/4 sm:text-lg">
           <div className="flex justify-between items-center border-b-1 border-gray-500">
-            <div className="basis-1/2"><strong>Full Stack Developer</strong><br/><em>Audemy, Houston, TX</em></div>
+            <div className="basis-1/2">
+              <strong>Full Stack Developer</strong>
+              <br />
+              <em>Audemy, Houston, TX</em>
+            </div>
             <div>Sep 2024 - Present</div>
           </div>
           <div className="flex justify-between items-center border-b-1 border-gray-500">
-            <div><strong>Full Stack Developer</strong><br/><em>SCG Solutions, East Lansing, MI</em></div>
+            <div>
+              <strong>Full Stack Developer</strong>
+              <br />
+              <em>SCG Solutions, East Lansing, MI</em>
+            </div>
             <div>Nov 2023 - Sep 2024</div>
           </div>
           <div className="flex justify-between items-center border-b-1 border-gray-500">
-            <div className="basis-1/2"><strong>Cloud DevOps Engineer</strong><br/><em>Volkswagen, India</em></div>
+            <div className="basis-1/2">
+              <strong>Cloud DevOps Engineer</strong>
+              <br />
+              <em>Volkswagen, India</em>
+            </div>
             <div>Jun 2020 - Aug 2023</div>
           </div>
         </div>
@@ -53,11 +69,17 @@ function aboutme() {
       {/* Education */}
       <div className="flex flex-col mt-10 gap-5 font-extralight sm:flex-row">
         <div className="flex font-mono  sm:basis-1/4">
-          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">Education</h2>
+          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">
+            Education
+          </h2>
         </div>
         <div className="sm:basis-3/4">
           <div className="flex justify-between items-center sm:text-lg  sm:basis-1/2">
-            <div className="basis-1/2">Master of Science in Information Systems<br/><em>Georgia State University, Atlanta, GA</em></div>
+            <div className="basis-1/2">
+              Master of Science in Information Systems
+              <br />
+              <em>Georgia State University, Atlanta, GA</em>
+            </div>
             <div>Aug 2023 - Aug 2024</div>
           </div>
         </div>
@@ -66,7 +88,9 @@ function aboutme() {
       {/* Achievements */}
       <div className="flex flex-col mt-10 gap-5 font-extralight sm:flex-row">
         <div className="flex font-mono sm:basis-1/4 ">
-          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">Achievements</h2>
+          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">
+            Achievements
+          </h2>
         </div>
         <div className="flex justify-center sm:justify-start sm:basis-3/4">
           <img className="h-80" src={instaPat}></img>
@@ -76,7 +100,9 @@ function aboutme() {
       {/* Certifications */}
       <div className="flex flex-col mt-10 gap-5 font-extralight sm:flex-row">
         <div className="flex font-mono sm:basis-1/4 ">
-          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">Certifications</h2>
+          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">
+            Certifications
+          </h2>
         </div>
         <div className="sm:basis-3/4 overflow-hidden">
           <motion.div
@@ -107,7 +133,6 @@ function aboutme() {
             <img className="h-52 w-64 flex-shrink-0" src={terraformCert}></img>
             <img className="h-52 w-64 flex-shrink-0" src={containerCert}></img>
             <img className="h-52 w-64 flex-shrink-0" src={javaCert}></img>
-
 
             {/* Duplicate set for seamless loop */}
             <img className="h-52 w-52 flex-shrink-0" src={awsSA}></img>

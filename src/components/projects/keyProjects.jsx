@@ -1,5 +1,5 @@
-import React from 'react'
-import ProjectCard from './projectCard'
+import React from "react";
+import ProjectCard from "./projectCard";
 
 function keyProjects() {
   return (
@@ -11,7 +11,8 @@ function keyProjects() {
             Personal Projects
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Explore some of my recent work showcasing Generative AI, web development, and DevOps solutions
+            Explore some of my recent work showcasing Generative AI, web
+            development, and DevOps solutions
           </p>
         </div>
 
@@ -19,10 +20,9 @@ function keyProjects() {
         <div className="mb-12">
           <ProjectCard />
         </div>
-
       </div>
     </div>
-  )
+  );
 }
 
-export default keyProjects
+export default keyProjects;

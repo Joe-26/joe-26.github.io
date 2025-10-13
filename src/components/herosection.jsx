@@ -15,20 +15,22 @@ function herosection(props) {
         {/* Introduction Section */}
         <div className="flex flex-col gap-2 px-4 sm:basis-1/2 justify-center">
           <div>Hi, I'm</div>
-          <div className="font-bold text-5xl uppercase font-FjallaOne sm:text-7xl">{props.name}</div>
+          <div className="font-bold text-5xl uppercase font-FjallaOne sm:text-7xl">
+            {props.name}
+          </div>
           <div className="font-medium font-mono text-2xl sm:text-3xl">
             &lt; Full Stack AI Engineer /&gt;
           </div>
           <div className="pt-2 sm:text-lg">
             <p>
-              AWS Certified Solutions Architect with 5 years of experience 
-              in designing, developing, and deploying scalable, secureenterprise 
+              AWS Certified Solutions Architect with 5 years of experience in
+              designing, developing, and deploying scalable, secureenterprise
               applications across cloud and full-stack environments.
-              <br/><br/>
-              Passionate 
-              about leveraging Generative AI, DevOps, and cloud technologies to deliver 
-              resilient, high-performance solutions that optimize processes and 
-              enhance user experiences.
+              <br />
+              <br />
+              Passionate about leveraging Generative AI, DevOps, and cloud
+              technologies to deliver resilient, high-performance solutions that
+              optimize processes and enhance user experiences.
             </p>
           </div>
           <div className="flex flex-col gap-4 justify-center text-black pt-4 sm:flex-row sm:justify-start sm:text-lg">

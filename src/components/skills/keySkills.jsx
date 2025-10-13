@@ -3,18 +3,18 @@ import { motion } from "motion/react";
 import javaLogo from "../../assets/tech-icons/java.png";
 import pythonLogo from "../../assets/tech-icons/python.png";
 import jsLogo from "../../assets/tech-icons/javascript.png";
-import ts from '../../assets/tech-icons/typescript.png';
+import ts from "../../assets/tech-icons/typescript.png";
 import awsLogo from "../../assets/aws.svg";
 import reactLogo from "../../assets/react.svg";
-import mongodb from '../../assets/tech-icons/mongo-db.png';
-import postgresql from '../../assets/tech-icons/postgres.png';
-import springboot from '../../assets/tech-icons/spring-boot.png';
-import django from '../../assets/tech-icons/django.png';
-import fastapi from '../../assets/tech-icons/fastapi.png';
-import docker from '../../assets/tech-icons/docker.png';
-import redis from '../../assets/tech-icons/redis.png';
-import azure from '../../assets/tech-icons/azure.png';
-import huggingface from '../../assets/tech-icons/hugging-face.png';
+import mongodb from "../../assets/tech-icons/mongo-db.png";
+import postgresql from "../../assets/tech-icons/postgres.png";
+import springboot from "../../assets/tech-icons/spring-boot.png";
+import django from "../../assets/tech-icons/django.png";
+import fastapi from "../../assets/tech-icons/fastapi.png";
+import docker from "../../assets/tech-icons/docker.png";
+import redis from "../../assets/tech-icons/redis.png";
+import azure from "../../assets/tech-icons/azure.png";
+import huggingface from "../../assets/tech-icons/hugging-face.png";
 
 function keySkills() {
   const logos = [

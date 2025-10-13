@@ -1,8 +1,7 @@
 import React from "react";
-import commentSummarizer from '../../assets/commentSummarizer.png'
-import askDex from '../../assets/askDex.png'
-import meealMate from '../../assets/mealMate.png'
-
+import commentSummarizer from "../../assets/commentSummarizer.png";
+import askDex from "../../assets/askDex.png";
+import meealMate from "../../assets/mealMate.png";
 
 function projectCard() {
   const projects = [
@@ -11,8 +10,7 @@ function projectCard() {
       title: "Audience Feedback Analytics for YouTube Content Creators ",
       description:
         "Transform 100+ scattered comments into a 30-second readable report highlighting what truly matters to your audience.",
-      image:
-        commentSummarizer,
+      image: commentSummarizer,
       githubUrl: "https://github.com/Joe-26/CommentSummarizer",
     },
     {

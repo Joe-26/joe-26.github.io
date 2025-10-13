@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function footer(props) {
   return (
@@ -8,7 +8,7 @@ function footer(props) {
         <div>Made with ❤️ by Josephraj Velpula</div>
       </div>
     </div>
-  )
+  );
 }
 
-export default footer
+export default footer;
