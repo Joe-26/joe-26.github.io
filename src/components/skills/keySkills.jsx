@@ -1,18 +1,36 @@
 import React from "react";
 import { motion } from "motion/react";
-import javaLogo from "../../assets/java.png";
-import pythonLogo from "../../assets/python.png";
-import jsLogo from "../../assets/js.png";
+import javaLogo from "../../assets/tech-icons/java.png";
+import pythonLogo from "../../assets/tech-icons/python.png";
+import jsLogo from "../../assets/tech-icons/javascript.png";
+import ts from '../../assets/tech-icons/typescript.png';
 import awsLogo from "../../assets/aws.svg";
 import reactLogo from "../../assets/react.svg";
+import mongodb from '../../assets/tech-icons/mongo-db.png';
+import postgresql from '../../assets/tech-icons/postgres.png';
+import springboot from '../../assets/tech-icons/spring-boot.png';
+import django from '../../assets/tech-icons/django.png';
+import docker from '../../assets/tech-icons/docker.png';
+import redis from '../../assets/tech-icons/redis.png';
+import azure from '../../assets/tech-icons/azure.png';
+import huggingface from '../../assets/tech-icons/hugging-face.png';
 
 function keySkills() {
   const logos = [
     { src: javaLogo, name: "Java" },
     { src: pythonLogo, name: "Python" },
     { src: jsLogo, name: "JavaScript" },
+    { src: ts, name: "TypeScript" },
     { src: awsLogo, name: "AWS" },
+    { src: azure, name: "azure" },
     { src: reactLogo, name: "React" },
+    { src: mongodb, name: "mongodb" },
+    { src: postgresql, name: "postgresql" },
+    { src: springboot, name: "springboot" },
+    { src: django, name: "django" },
+    { src: docker, name: "docker" },
+    { src: redis, name: "redis" },
+    { src: huggingface, name: "huggingface" },
   ];
 
   return (

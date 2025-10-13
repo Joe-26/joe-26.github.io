@@ -1,8 +1,8 @@
 import React from "react";
 import profilePhoto from "../assets/myPhoto5.png";
-import javaLogo from "../assets/java.png";
+import springboot from "../assets/tech-icons/spring-boot.png";
 import pythonLogo from "../assets/python.png";
-import jsLogo from "../assets/js.png";
+import huggingface from "../assets/tech-icons/hugging-face.png";
 import awsLogo from "../assets/aws.svg";
 import reactLogo from "../assets/react.svg";
 
@@ -18,10 +18,10 @@ function photoComp() {
           src={awsLogo}
         ></img>
 
-        {/* Java Logo */}
+        {/* Springboot Logo */}
         <img
           className="absolute top-10 right-8 rounded-full bg-gray-300/10 backdrop-blur-sm p-2 h-14 sm:h-20 animate-[bounce_9s_ease-in-out_infinite]"
-          src={javaLogo}
+          src={springboot}
         ></img>
 
         {/* React Logo */}
@@ -30,10 +30,10 @@ function photoComp() {
           src={reactLogo}
         ></img>
 
-        {/* JS Logo */}
+        {/* Hugging Face Logo */}
         <img
           className="absolute top-55 -right-1 rounded-full bg-gray-300/10 backdrop-blur-sm p-2 h-14 sm:top-70 sm:h-20 animate-[bounce_4s_ease-in-out_infinite]"
-          src={jsLogo}
+          src={huggingface}
         ></img>
 
         {/* Python Logo */}
