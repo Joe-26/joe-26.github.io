@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import Skills from "./skills/skills";
 
 import photoCollage from "../assets/myPhoto4.jpg";
-import instaPat from "../assets/instaPat.jpeg";
+import instaPat from "../assets/instapat.jpeg";
 import awsSA from "../assets/aws-sa-a.png";
 import awsCom from "../assets/aws-com.png";
 import awsServer from "../assets/aws-server.png";
