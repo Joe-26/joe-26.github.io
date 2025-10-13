@@ -1,7 +1,7 @@
 import React from "react";
 import profilePhoto from "../assets/myPhoto5.png";
 import springboot from "../assets/tech-icons/spring-boot.png";
-import pythonLogo from "../assets/python.png";
+import fastapi from "../assets/tech-icons/fastapi.png";
 import huggingface from "../assets/tech-icons/hugging-face.png";
 import awsLogo from "../assets/aws.svg";
 import reactLogo from "../assets/react.svg";
@@ -36,10 +36,10 @@ function photoComp() {
           src={huggingface}
         ></img>
 
-        {/* Python Logo */}
+        {/* FastAPI Logo */}
         <img
           className="absolute bottom-0 left-12 transform -translate-x-1/2 rounded-full bg-gray-300/10 backdrop-blur-sm p-2 h-14 sm:h-20 animate-[bounce_7s_ease-in-out_infinite]"
-          src={pythonLogo}
+          src={fastapi}
         ></img>
       </div>
     </div>

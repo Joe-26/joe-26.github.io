@@ -10,6 +10,7 @@ import mongodb from '../../assets/tech-icons/mongo-db.png';
 import postgresql from '../../assets/tech-icons/postgres.png';
 import springboot from '../../assets/tech-icons/spring-boot.png';
 import django from '../../assets/tech-icons/django.png';
+import fastapi from '../../assets/tech-icons/fastapi.png';
 import docker from '../../assets/tech-icons/docker.png';
 import redis from '../../assets/tech-icons/redis.png';
 import azure from '../../assets/tech-icons/azure.png';
@@ -26,8 +27,9 @@ function keySkills() {
     { src: reactLogo, name: "React" },
     { src: mongodb, name: "mongodb" },
     { src: postgresql, name: "postgresql" },
-    { src: springboot, name: "springboot" },
+    { src: fastapi, name: "fastapi" },
     { src: django, name: "django" },
+    { src: springboot, name: "springboot" },
     { src: docker, name: "docker" },
     { src: redis, name: "redis" },
     { src: huggingface, name: "huggingface" },
