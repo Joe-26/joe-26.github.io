@@ -1,0 +1,24 @@
+{
+  "name": "Josephraj Velpula",
+  "logo":"JRV", 
+  "headline": "Full-Stack Developer | React Enthusiast",
+  "socials": {
+    "github": "https://github.com/your-username",
+    "linkedin": "https://linkedin.com/in/your-profile"
+  },
+  "about": "A short paragraph about yourself...",
+  "projects": [
+    {
+      "title": "Project One",
+      "description": "Description of the first project.",
+      "technologies": ["React", "Node.js", "CSS"],
+      "link": "https://example.com/project-one"
+    },
+    {
+      "title": "Project Two",
+      "description": "Description of the second project.",
+      "technologies": ["JavaScript", "HTML5"],
+      "link": "https://example.com/project-two"
+    }
+  ]
+}

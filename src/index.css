@@ -1,20 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-html,
-body,
-#root,
-.app {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-    @apply text-berkeleyblue
-}
+@theme {
+    --font-slash: "Splash", cursive;
+    --font-glitch: "Rubik Glitch", system-ui;
+    --font-Oswald: "Oswald", sans-serif;
+    --font-FjallaOne: "Fjalla One", sans-serif;
+    --font-Amaranth: "Amaranth", sans-serif;
 
-@layer base {
-    html {
-        scroll-behavior: smooth;
-    }
+    --color-rebecca-purple: #662C91;
 }
