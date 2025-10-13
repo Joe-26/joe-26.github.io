@@ -4,7 +4,7 @@ import PhotoComp from "./photo";
 
 function herosection(props) {
   return (
-    <div className="relative h-screen bg-radial-[at_0%_0%] from-indigo-500 to-black to-60% px-4 sm:px-44">
+    <div className="relative h-screen bg-radial-[at_0%_0%] from-rebecca-purple to-black to-60% px-4 sm:px-44">
       <ParticlesBackground />
       <div className="flex flex-col gap-2 sm:flex-row-reverse items-center justify-center h-full z-10">
         {/* Photo Component */}
@@ -15,7 +15,7 @@ function herosection(props) {
         {/* Introduction Section */}
         <div className="flex flex-col gap-2 px-4 sm:basis-1/2 justify-center">
           <div>Hi, I'm</div>
-          <div className="font-bold text-5xl uppercase sm:text-7xl">{props.name}</div>
+          <div className="font-bold text-5xl uppercase font-FjallaOne sm:text-7xl">{props.name}</div>
           <div className="font-medium font-mono text-2xl sm:text-3xl">
             &lt; Full Stack Developer /&gt;
           </div>
@@ -35,7 +35,7 @@ function herosection(props) {
             <div className="flex justify-center">
               <a
                 href="https://drive.google.com/file/d/1xEfVIxGMe0OG-bEJ_Y_AtVKOD2lyMmbn/view?usp=sharing"
-                className="flex items-center border rounded-full px-6 py-1 bg-white transition-transform duration-200 scale-100 hover:scale-110"
+                className="flex items-center border rounded-full px-6 py-2 bg-white transition-transform duration-200 scale-100 hover:scale-110"
               >
                 Resume
               </a>
@@ -43,7 +43,7 @@ function herosection(props) {
             <div className="flex justify-center">
               <a
                 href="mailto:V.josephraj26@gmail.com"
-                className="flex border rounded-full items-center px-6 py-1 gap-1 bg-white transition-transform duration-200 scale-100 hover:scale-110"
+                className="flex border rounded-full items-center px-6 py-2 gap-1 bg-white transition-transform duration-200 scale-100 hover:scale-110"
               >
                 V.josephraj26@gmail.com
                 <svg

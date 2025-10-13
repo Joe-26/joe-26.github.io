@@ -45,7 +45,7 @@ function ContactMePage() {
 function App() {
   return (
     <Router>
-      <div className="text-white">
+      <div className="text-white font-Amaranth">
         <Navbar logo={portfolioInfo.logo}></Navbar>
 
         <Routes>

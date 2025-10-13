@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-    --font-comforter: "Comforter", cursive;
     --font-slash: "Splash", cursive;
-    --font-rock: "Rock Salt", cursive;
     --font-glitch: "Rubik Glitch", system-ui;
+    --font-Oswald: "Oswald", sans-serif;
+    --font-FjallaOne: "Fjalla One", sans-serif;
+    --font-Amaranth: "Amaranth", sans-serif;
+
+    --color-rebecca-purple: #662C91;
 }

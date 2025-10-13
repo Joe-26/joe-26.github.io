@@ -4,13 +4,13 @@ function skills() {
   return (
     <div>
       {/* Skills */}
-      <div className="mt-10 font-mono uppercase font-extrabold mb-5">Skills</div>
+      <div className="mt-10 font-mono uppercase font-extrabold mb-5 text-lg sm:text-2xl">Skills</div>
       <div className="flex flex-col font-extralight sm:flex-row sm:gap-5">
         <div className="flex font-mono sm:basis-1/4">
           <h2 className="font-extralight">Languages</h2>
         </div>
         <div className="sm:flex sm:flex-col sm:basis-3/4">
-          <div className="basis-1/2">Python, Java, JavaScript, TypeScript</div>
+          <div className="basis-1/2">Python, Java, JavaScript, Typescript, HTML,CSS, SQL, Shell</div>
         </div>
       </div>
       <div className="flex flex-col mt-4 font-extralight sm:flex-row sm:gap-5">

@@ -14,14 +14,13 @@ import javaCert from "../assets/JavaCert.jpg";
 
 function aboutme() {
   return (
-    <div className="bg-radial-[at_100%_0%] from-indigo-500 to-black to-60% px-4 pt-30 sm:px-52">
+    <div className="bg-radial-[at_0%_50%] from-rebecca-purple to-black to-60% px-4 pt-30 sm:px-52">
       {/* Introduction */}
       <div className="flex flex-col gap-5 sm:flex-row">
-        <div className="flex text-2xl font-mono text-center px-2 sm:basis-1/2 sm:text-5xl sm:items-center">
-          Full Stack Developer, with a background in Gen AI & Cloud.
+        <div className="flex flex-col my-auto text-center px-2 sm:basis-1/2  sm:items-center">
+          <span className="text-3xl font-FjallaOne sm:text-6xl">Full Stack Developer, with a background in Gen AI & Cloud.</span>
           <br />
-          <br />
-          📍 United States
+          <span className="font-mono sm:text-3xl">📍 United States</span>
         </div>
         <div className="flex justify-center sm:basis-1/2">
           <img className="rounded-full w-64 sm:w-full" src={photoCollage}></img>
@@ -31,9 +30,9 @@ function aboutme() {
       {/* Experience */}
       <div className="flex flex-col mt-10 sm:mt-20 gap-5 font-extralight sm:flex-row">
         <div className="flex font-mono sm:basis-1/4">
-          <h2 className="uppercase font-extrabold">Experience</h2>
+          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">Experience</h2>
         </div>
-        <div className="flex flex-col gap-4 sm:basis-3/4">
+        <div className="flex flex-col gap-4 sm:basis-3/4 sm:text-lg">
           <div className="flex justify-between items-center border-b-1 border-gray-500">
             <div className="basis-1/2"><strong>Full Stack Developer</strong><br/><em>Audemy, Houston, TX</em></div>
             <div>Sep 2024 - Present</div>
@@ -54,10 +53,10 @@ function aboutme() {
       {/* Education */}
       <div className="flex flex-col mt-10 gap-5 font-extralight sm:flex-row">
         <div className="flex font-mono  sm:basis-1/4">
-          <h2 className="uppercase font-extrabold">Education</h2>
+          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">Education</h2>
         </div>
         <div className="sm:basis-3/4">
-          <div className="flex justify-between items-center  sm:basis-1/2">
+          <div className="flex justify-between items-center sm:text-lg  sm:basis-1/2">
             <div className="basis-1/2">Master of Science in Information Systems<br/><em>Georgia State University, Atlanta, GA</em></div>
             <div>Aug 2023 - Aug 2024</div>
           </div>
@@ -67,7 +66,7 @@ function aboutme() {
       {/* Achievements */}
       <div className="flex flex-col mt-10 gap-5 font-extralight sm:flex-row">
         <div className="flex font-mono sm:basis-1/4 ">
-          <h2 className="uppercase font-extrabold">Achievements</h2>
+          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">Achievements</h2>
         </div>
         <div className="flex justify-center sm:justify-start sm:basis-3/4">
           <img className="h-80" src={instaPat}></img>
@@ -77,7 +76,7 @@ function aboutme() {
       {/* Certifications */}
       <div className="flex flex-col mt-10 gap-5 font-extralight sm:flex-row">
         <div className="flex font-mono sm:basis-1/4 ">
-          <h2 className="uppercase font-extrabold">Certifications</h2>
+          <h2 className="uppercase font-extrabold text-lg sm:text-2xl">Certifications</h2>
         </div>
         <div className="sm:basis-3/4 overflow-hidden">
           <motion.div
