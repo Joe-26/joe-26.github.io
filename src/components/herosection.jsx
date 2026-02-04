@@ -38,7 +38,7 @@ function herosection(props) {
               <a
                 href="https://drive.google.com/file/d/1KG1-wjMbAWgteWq8WWHW8Hvx7zpQ2JW3/view?usp=sharing"
                 className="flex items-center border rounded-full px-6 py-2 bg-white transition-transform duration-200 scale-100 hover:scale-110"
-                target='_blank'
+                target="_blank"
               >
                 Resume
               </a>
