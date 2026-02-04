@@ -21,7 +21,7 @@ function navbar(props) {
             <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-white"></span>
           </a>
           <a
-            href="https://drive.google.com/file/d/1xEfVIxGMe0OG-bEJ_Y_AtVKOD2lyMmbn/view?usp=sharing"
+            href="https://drive.google.com/file/d/1KG1-wjMbAWgteWq8WWHW8Hvx7zpQ2JW3/view?usp=sharing"
             target="_blank"
             class="group transition-all duration-300"
           >
