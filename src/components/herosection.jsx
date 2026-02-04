@@ -36,8 +36,9 @@ function herosection(props) {
           <div className="flex flex-col gap-4 justify-center text-black pt-4 sm:flex-row sm:justify-start sm:text-lg">
             <div className="flex justify-center">
               <a
-                href="https://drive.google.com/file/d/1xEfVIxGMe0OG-bEJ_Y_AtVKOD2lyMmbn/view?usp=sharing"
+                href="https://drive.google.com/file/d/1KG1-wjMbAWgteWq8WWHW8Hvx7zpQ2JW3/view?usp=sharing"
                 className="flex items-center border rounded-full px-6 py-2 bg-white transition-transform duration-200 scale-100 hover:scale-110"
+                target='_blank'
               >
                 Resume
               </a>
